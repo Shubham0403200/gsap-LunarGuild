@@ -184,10 +184,7 @@ import { Button } from "@/components/ui/button";
 import Image from "next/image";
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
-import { SplitText } from "gsap/SplitText";
-import { ScrollTrigger } from "gsap/ScrollTrigger";
-
-gsap.registerPlugin(ScrollTrigger, SplitText);
+import SplitText from "gsap/SplitText";
 
 const Hero = () => {
   const heroRef = useRef<HTMLDivElement | null>(null);
@@ -312,7 +309,7 @@ const Hero = () => {
         </h2>
         <Button
           ref={buttonRef}
-          className="mt-0 md:mt-4 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-semibold hover:scale-105 transition-transform tracking-tight"
+          className="mt-0 md:mt-4 px-6 sm:px-8 py-3 sm:py-4 rounded-full bg-white text-black font-semibold hover:scale-105 transition-transform tracking-tight hover:bg-white/80 cursor-pointer"
         >
           Join Our Lunar Community
         </Button>

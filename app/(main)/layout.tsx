@@ -13,7 +13,7 @@ export default function MainLayout({
   gsap.registerPlugin(ScrollTrigger, SplitText);
 
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen flex flex-col bg-[#0a0a0a] text-white overflow-x-hidden overflow-y-auto">
       <Header />
       <main className="flex-grow">{children}</main>
       <Footer />

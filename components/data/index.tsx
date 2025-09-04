@@ -1,3 +1,5 @@
+import { CalendarCheck, Users, Presentation, MessageSquare, Award, Megaphone, BookOpen, FileText } from "lucide-react";
+
 export const profiles = [
     { id:1, name: 'Alice Johnson', star: 4, role: 'UI/UX Designer', location: 'Founder @ UX Playbook', image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" },
     { id:2, name: 'Bob Smith', star: 2, role: 'Product Designer', location: 'Co-founder @ DesignHub', image: "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg" },
@@ -11,6 +13,78 @@ export const profiles = [
     { id:10, name: 'Jack Miller', star: 4, role: 'Art Director', location: 'Co-founder @ Artistry', image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg" },
 ]
 
-export const benefits = [ 
-    { id: 1,  }
+export const benefitData = [ 
+  {id: 1, title: "Grow your business", description: "Get access to hand-picked experts who've replaced their 9 to 5s. Been there, done that!", image: "/assets/benefits1.PNG"}, 
+  {id: 2, title: "Get Real-time help", description: "Get step-by-step suggestions that's personalized to you, your situation ad your business", image: "/assets/benefits2.PNG"}, 
+  {id: 3, title: "Tight-knit support network", description: "Expand your network, share, connect, and vent in an exclusive environment!", image: "/assets/benefits3.PNG"}, 
+  {id: 4, title: "Learn and steal our systems", description: "Battle-tested tactics from sales, marketing, to operations and growth design, move faster", image: "/assets/benefits4.PNG"}, 
 ]
+
+export const featureProfiles = [ 
+    { id:1, title: 'Average Experience', description: "10+ Years", image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" },
+    { id:2, title: 'Community Revenue', description: '$700,000+ this year', location: 'Co-founder @ DesignHub', image: "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg" },
+    { id:3, title: 'Community Audience', description: '200,000+ Subscribers', location: 'Founder @ Creative Minds', image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" },
+    { id:4, title: 'Lunar Activity', description:'3245+ Messages (29 days)', location: 'Co-founder @ Interact Studio', image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" },
+
+]
+
+export const communityData = [
+  {
+    id: 1,
+    title: "Weekly check-ins",
+    description: "Every Monday, we share reflections, set new goals, and get support.",
+    icon: CalendarCheck,
+    color: "text-blue-500",
+  },
+  {
+    id: 2,
+    title: "Daily co-working",
+    description: "Daily sessions to focus on deep work and the most important thing.",
+    icon: Users,
+    color: "text-green-500",
+    span: "NEW",
+  },
+  {
+    id: 3,
+    title: "Monthly workshops",
+    description: "Each month, we conduct an online retrospective to reflect and plan.",
+    icon: Presentation,
+    color: "text-purple-500",
+  },
+  {
+    id: 4,
+    title: "Peer feedback",
+    description: "We regularly share work-in-progress to get brutally honest feedback.",
+    icon: MessageSquare,
+    color: "text-orange-500",
+  },
+  {
+    id: 5,
+    title: "Celebrate wins",
+    description: "We celebrate our accomplishments (big and small). Best way to build momentum.",
+    icon: Award,
+    color: "text-yellow-500",
+  },
+  {
+    id: 6,
+    title: "Judgement-free venting",
+    description: "We share lessons learned and vent about the world's fuckeries. Zero judgement.",
+    icon: Megaphone,
+    color: "text-red-500",
+  },
+  {
+    id: 7,
+    title: "Expert-curated content",
+    description: "Activities and workshops designed for your preferred work style.",
+    icon: BookOpen,
+    color: "text-teal-500",
+  },
+  {
+    id: 8,
+    title: "Playbooks",
+    description: "Templates, resources, frameworks to build a sustainable content business.",
+    icon: FileText,
+    color: "text-pink-500",
+    span: "SOON",
+  },
+];

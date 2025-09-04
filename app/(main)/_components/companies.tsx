@@ -107,14 +107,14 @@ const Companies = () => {
         {companies.map((company, idx) => (
           <div
             key={idx}
-            className="w-16 md:w-32 cursor-pointer"
+            className="w-12 h-12 md:w-16 md:h-16 cursor-pointer"
           >
             <Image
               src={company.logo}
               alt={company.name}
-              width={128}
-              height={64}
-              style={{ objectFit: "contain", mixBlendMode: "lighten" }}
+              className="w-full h-full"
+              objectFit="cover"
+              fill
             />
           </div>
         ))}
