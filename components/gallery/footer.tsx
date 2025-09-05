@@ -6,7 +6,9 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto px-6 py-10 grid gap-8 md:grid-cols-3">
         {/* Brand Info */}
         <div>
-          <h4 className="text-white font-semibold">Lunar Guild</h4>
+          <Link href="/" className="text-xl font-bold tracking-tight text-white">
+                    Lunar <span className="text-slate-400">Guild</span>
+          </Link>
           <p className="text-sm mt-2">
             A community for senior designers building independent businesses.
           </p>

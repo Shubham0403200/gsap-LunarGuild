@@ -4,7 +4,7 @@ import React from 'react'
 
 const Benefits = () => {
   return (
-    <div className='w-full px-6 md:px-8 max-w-6xl mx-auto flex flex-col gap-6 py-12 md:py-24'>
+    <div className='w-full px-6 md:px-8 max-w-4xl mx-auto flex flex-col gap-6 py-12 md:py-24'>
       {/* Header */}
       <div>
         <h1
@@ -24,7 +24,7 @@ const Benefits = () => {
             className='relative group bg-gradient-to-b from-gray-900/70 to-black/50 border border-slate-800 rounded-2xl overflow-hidden shadow-lg hover:shadow-2xl transition-shadow duration-300'
           >
             {/* Image */}
-            <div className='relative w-full h-56 md:h-64 lg:h-72'>
+            <div className='relative w-full h-40 md:h-48'>
               <Image
                 src={benefit.image}
                 alt={benefit.title}
@@ -39,7 +39,7 @@ const Benefits = () => {
               <h2 className='text-lg md:text-xl font-semibold tracking-tight text-white'>
                 {benefit.title}
               </h2>
-              <p className='text-xs text-slate-300 mt-1 tracking-tighter'>{benefit.description}</p>
+              <p className='text-xs text-slate-300 mt-1 tracking-tight'>{benefit.description}</p>
             </div>
           </div>
         ))}

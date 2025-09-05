@@ -293,14 +293,14 @@ const Hero = () => {
   return (
     <section
       ref={heroRef}
-      className="relative text-white bg-black flex flex-col md:flex-row items-center gap-x-32 px-6 md:px-12 max-w-6xl mx-auto py-16 overflow-hidden"
+      className="relative flex flex-col md:flex-row items-center gap-x-32 px-6 md:px-12 max-w-6xl mx-auto py-16 overflow-hidden mt-12 md:mt-0"
     >
       {/* Left Side */}
       <div className="flex-1 max-w-xl text-center md:text-left space-y-4 z-10">
-        <h1 className="mt-8 md:mt-0 hero-title text-3xl md:text-5xl font-bold leading-none tracking-tight">
+        <h1 className="mt-16 md:mt-0 hero-title text-3xl md:text-5xl font-bold leading-none tracking-tight">
           Where Senior Designers go{" "}
           <br />
-          <span className="font-['cursive'] text-2xl italic text-slate-200">
+          <span className="font-['cursive'] italic text-slate-200">
             independent
           </span>
         </h1>

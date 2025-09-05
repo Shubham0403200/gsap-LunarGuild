@@ -91,7 +91,7 @@ const Companies = () => {
   return (
     <section
       ref={sectionRef}
-      className="max-w-6xl mx-auto py-16 px-4 text-center bg-black"
+      className="max-w-6xl mx-auto py-16 px-4 text-center"
     >
       <h2
         ref={headingRef}

@@ -11,6 +11,9 @@ import CommunityFeature from "./_components/community-feature";
 import Playbook from "./_components/playbook";
 import Pricing from "./_components/pricing";
 import FAQAccordion from "./_components/accordion";
+import Testimonials from "./_components/testimonials";
+import Newsletter from "./_components/newsletter";
+import FeatureCard from "./_components/feature-card";
 
 const HomePage = () => {
   return (
@@ -21,16 +24,16 @@ const HomePage = () => {
       <Community />
       <CTAtext />
       <ProfileCards />
+      <FeatureCard /> 
       <Reason />
       <HowStart />
       <CommunityFeature />
       <Playbook />
       <Pricing />
       <FAQAccordion />
-      {/* 
       <Testimonials />
       <Newsletter /> 
-      <FeatureCard /> 
+      {/* 
       */}
     </div>
   );

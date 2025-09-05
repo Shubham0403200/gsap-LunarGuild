@@ -31,7 +31,7 @@ const CommunityFeature = () => {
       </div>
 
       {/* Sections Container */}
-      <div className="flex flex-col md:flex-row gap-10 w-full justify-between z-10">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-10 w-full justify-between z-10">
         {/* Fit For Section */}
         <div className="relative flex-1 p-6 bg-[#121212]/80 rounded-xl border border-slate-700 shadow-md backdrop-blur-md overflow-hidden">
           {/* Glow ball - absolute inside this section */}

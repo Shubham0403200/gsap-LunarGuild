@@ -24,7 +24,7 @@ export const featureProfiles = [
     { id:1, title: 'Average Experience', description: "10+ Years", image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" },
     { id:2, title: 'Community Revenue', description: '$700,000+ this year', location: 'Co-founder @ DesignHub', image: "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg" },
     { id:3, title: 'Community Audience', description: '200,000+ Subscribers', location: 'Founder @ Creative Minds', image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" },
-    { id:4, title: 'Lunar Activity', description:'3245+ Messages (29 days)', location: 'Co-founder @ Interact Studio', image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" },
+    { id:4, title: 'Lunar Activity', description:'3245+ Messages', location: 'Co-founder @ Interact Studio', image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg" },
 
 ]
 
@@ -86,5 +86,113 @@ export const communityData = [
     icon: FileText,
     color: "text-pink-500",
     span: "SOON",
+  },
+];
+
+export const testimonialData = [
+  {
+    id: 1,
+    name: "Alice Johnson",
+    comment: "This community completely changed my perspective on entrepreneurship. The support here is unmatched!",
+    role: "UI/UX Designer",
+    image: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+  },
+  {
+    id: 2,
+    name: "Bob Smith",
+    comment: "I went from struggling with client work to running a successful design studio, all thanks to the mentorship here.",
+    role: "Product Designer",
+    image: "https://images.pexels.com/photos/697509/pexels-photo-697509.jpeg",
+  },
+  {
+    id: 3,
+    name: "Catherine Lee",
+    comment: "The workshops and weekly check-ins keep me accountable and motivated every single week.",
+    role: "Creative Director",
+    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+  },
+  {
+    id: 4,
+    name: "David Kim",
+    comment: "I love how open and supportive everyone is. It feels like a family, not just another online group.",
+    role: "Interaction Designer",
+    image: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+  },
+  {
+    id: 5,
+    name: "Eva Martinez",
+    comment: "The VIP coaching program is worth every penny. My business grew 3x in just 6 months.",
+    role: "Visual Designer",
+    image: "https://images.pexels.com/photos/1181690/pexels-photo-1181690.jpeg",
+  },
+  {
+    id: 6,
+    name: "Frank Wilson",
+    comment: "I was skeptical at first, but after joining, I realized this was the best decision for my career.",
+    role: "Experience Designer",
+    image: "https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg",
+  },
+  {
+    id: 7,
+    name: "Grace Chen",
+    comment: "The resources provided here are gold. I wish I had joined earlier!",
+    role: "Service Designer",
+    image: "https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg",
+  },
+  {
+    id: 8,
+    name: "Henry Brown",
+    comment: "Networking here led me to collaborations I never imagined possible.",
+    role: "Design Strategist",
+    image: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+  },
+  {
+    id: 9,
+    name: "Isabella Davis",
+    comment: "The founder personally ensures everyone feels heard and valued. That makes a huge difference.",
+    role: "Founder, Creative Vision",
+    image: "https://images.pexels.com/photos/1181691/pexels-photo-1181691.jpeg",
+  },
+  {
+    id: 10,
+    name: "Jack Miller",
+    comment: "From zero clients to fully booked! The accountability system here works wonders.",
+    role: "Art Director",
+    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+  },
+  {
+    id: 11,
+    name: "Karen Lopez",
+    comment: "The community vibe keeps me inspired to push my limits every day.",
+    role: "Brand Strategist",
+    image: "https://images.pexels.com/photos/1181519/pexels-photo-1181519.jpeg",
+  },
+  {
+    id: 12,
+    name: "Liam Thompson",
+    comment: "The founder’s coaching calls alone are worth the membership fee.",
+    role: "Marketing Designer",
+    image: "https://images.pexels.com/photos/712513/pexels-photo-712513.jpeg",
+  },
+  {
+    id: 13,
+    name: "Maya Patel",
+    comment: "The workshops are practical and full of actionable advice, not just theory.",
+    role: "Business Consultant",
+    image: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+  },
+  {
+    id: 14,
+    name: "Nathan Scott",
+    comment: "I've learned more here in 3 months than in 3 years of trying things on my own.",
+    role: "Freelance Designer",
+    image: "https://images.pexels.com/photos/91227/pexels-photo-91227.jpeg",
+  },
+  {
+    id: 15,
+    name: "Olivia Green",
+    comment: "Finally, a community that truly cares about your success, not just membership fees.",
+    role: "Startup Founder",
+    image: "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
   },
 ];

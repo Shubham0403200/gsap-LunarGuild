@@ -37,9 +37,9 @@ const Pricing = () => {
       </div>
 
       {/* Pricing Cards */}
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
         {/* Standard Plan */}
-        <div className="relative bg-[#121212]/80 border border-slate-700 rounded-2xl p-6 sm:p-8 flex flex-col shadow-lg hover:shadow-xl transition group">
+        <div className="relative bg-[#121212]/80 border border-slate-700 rounded-2xl p-6 sm:p-8 flex flex-col shadow-lg hover:shadow-xl transition group h-fit">
           <div className="flex justify-between items-center flex-wrap gap-2">
             <h2 className="text-lg sm:text-xl font-semibold">Standard</h2>
             <span className="bg-green-400 text-black text-[10px] sm:text-xs px-2 py-1 rounded-full font-bold">
